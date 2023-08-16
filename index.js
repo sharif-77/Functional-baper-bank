@@ -5,7 +5,7 @@ document.getElementById("loginBtn").addEventListener("click", () => {
   let email = document.getElementById("emailField").value;
   let password = document.getElementById("passwordField").value;
   if (email === "sharif@bank.com" && password === "123") {
-    location.href = "./Functional-baper-bank/bank.html";
+    location.href = "./bank.html";
     // location.href = "bank.html";
     document.getElementById("emailField").value = "";
     document.getElementById("passwordField").value = "";
